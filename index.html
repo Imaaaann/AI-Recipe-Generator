@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="scr.css/style.css">
     <title>AI-Recipe-Generator</title>
@@ -10,12 +11,12 @@
     <div class="container">
     <main>
         <h1>Welcome to the AI recipe generator</h1>
-        <form>
+        <form id="ing-form">
             <input type="text" placeholder="Enter ingredient..." required autofocus class="ing-input">
             <input type="submit" class="sub-button">
         </form>
 
-        <div class="recipe">recipe</div>
+        <div class="recipe" id="recipe">recipe</div>
     </main>
 
     <footer>
